@@ -26,10 +26,13 @@ https://i.pinimg.com/736x/b6/e7/9a/b6e79a637579508e08731f890f99a15e.jpg
 
 Mu de Aries:
 https://i.pinimg.com/736x/07/09/ce/0709ce73532f424226155184477f08c9.jpg
+
 Aldebaran de Touro :
 https://i.pinimg.com/736x/99/62/ee/9962eea002193967a40f53b5febebc02.jpg
+
 Saga de Gemeos:
 https://i.pinimg.com/736x/8c/23/c7/8c23c7cfcf88516fd04b291982a47c06.jpg
+
 
 Mascara da morte de cancer:
 https://i.pinimg.com/736x/6c/c4/ea/6cc4eac9b8c1ddcfe657312a6d844195.jpg
