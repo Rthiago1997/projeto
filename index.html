@@ -6,9 +6,15 @@
   <title>Cavaleiros do Zodíaco</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <script>
+    function funcao1()
+    {
+    alert("Mensagem enviada com sucesso!");
+    }
+    </script>
 <body>
   <header>
-    <h1>Cavaleiros do Zodíaco</h1>
+    <h1>Bem vindo ao Portal dos Cavaleiros do Zodíaco</h1>
     <p>Conheça os principais personagens do anime!</p>
   </header>
   <!-- Cavaleiros de Bronze -->
@@ -139,7 +145,13 @@
             <p>Antigo Cavaleiro de Ouro e Mestre do Santuário.</p>
         </a>
     </div>
-    
+    <div>
+      <h1>Sobre este Anime</h1>
+
+      
+    </div>
+     
+ 
   <h2>Envie sua opinião</h2>
   <div class="container">
     <form action="#" method="post">
@@ -152,7 +164,7 @@
       <label for="mensagem">Mensagem:</label><br>
       <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
 
-      <button class="button is-white">Enviar</button>
+      <input type="button" onclick="funcao1()" value="Enviar" />
     </form>
   </div>
   <footer>
