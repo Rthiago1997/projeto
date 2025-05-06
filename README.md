@@ -3,8 +3,8 @@ Minha landing page é sobre o Anime Cavaleiros do Zodíaco.
 
 ## Tecnológias
 Este projeto foi desenvolvido com as seguintes tecnologias:
-*[Framework] (https://bulma.io/)
-*[Linguagem] CSS HTML Javascript
+* [Framework] (https://bulma.io/)
+* [Linguagem] CSS HTML Javascript
 
 
 ## 📁 Estrutura do Projeto
