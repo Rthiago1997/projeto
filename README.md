@@ -81,7 +81,4 @@ https://i.pinimg.com/736x/7f/6c/59/7f6c59c0a830121aa6b3ff90a9e1cf59.jpg
 ```bash
 git clone https://github.com/Rthiago1997/projeto.git
 
-
-
-##Autor
 Nome: Thiago Rique
