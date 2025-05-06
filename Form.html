@@ -43,10 +43,15 @@
     <label for="mensagem">Mensagem:</label>
     <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
-    <button type="submit">Enviar</button>
+    <button type="submit" onclick="funcao1()">Enviar</button>
     <button type="button" class="voltar" onclick="voltarParaIndex()">Voltar</button>
   </form>
-
+  <script>
+    function funcao1()
+    {
+    alert("Mensagem enviada com sucesso!");
+    }
+    </script>
   <script>
     function voltarParaIndex() {
       window.location.href = "index.html"; // Caminho da sua página principal

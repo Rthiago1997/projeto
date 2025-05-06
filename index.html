@@ -2,174 +2,328 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cavaleiros do Zodíaco</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-  <script>
-    function funcao1()
-    {
-    alert("Mensagem enviada com sucesso!");
-    }
-    </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
 <body>
-  <header>
-    <h1>Bem vindo ao Portal dos Cavaleiros do Zodíaco</h1>
-    <p>Conheça os principais personagens do anime!</p>
-  </header>
-  <!-- Cavaleiros de Bronze -->
-  <h2>Cavaleiros de Bronze</h2>
-  <div class="container">
-    <div class="card">
-        <img src="https://www.opovo.com.br/_midias/jpg/2024/12/18/cavaleiro_seiya-31985409.jpg" alt="Seiya de Pégaso">
-        <h3>Seiya de Pégaso</h3>
-        <p>O protagonista corajoso e determinado.</p>
-      </a>
+  <!-- Header -->
+  <section class="hero is-dark">
+    <div class="hero-body has-text-centered">
+      <h1 class="title has-text-warning">Cavaleiros do Zodíaco</h1>
+      <p class="subtitle">Conheça os principais personagens do anime!</p>
     </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/7f/6c/59/7f6c59c0a830121aa6b3ff90a9e1cf59.jpg" alt="Shiryu de Dragão">
-        <h3>Shiryu de Dragão</h3>
-        <p>Forte e leal, conhecido por sua armadura de Dragão.</p>
-      </a>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Cavaleiros de Bronze</h2>
+      <div class="columns is-multiline">
+
+        <!-- Cavaleiros de Bronze -->
+        <div class="column is-one-quarter">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                  <img src="https://www.opovo.com.br/_midias/jpg/2024/12/18/cavaleiro_seiya-31985409.jpg" alt="Seiya de Pégaso">
+              </figure>
+            </div>
+            <div class="card-content has-text-centered">
+              <p class="title is-5">Seiya de Pégaso</p>
+              <p class="subtitle is-6">Determinado e corajoso, protetor de Atena.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/7f/6c/59/7f6c59c0a830121aa6b3ff90a9e1cf59.jpg" alt="Shiryu de Dragão">
+      </figure>
     </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/29/04/fa/2904fa70ef2407a667ee7aea6376edd3.jpg" alt="Hyoga de Cisne">
-        <h3>Hyoga de Cisne</h3>
-        <p>Manipula o gelo, sempre calmo e estratégico.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/16/e9/00/16e900e8f07382ff674bb3ccd104f44c.jpg" alt="Shun de Andrômeda">
-        <h3>Shun de Andrômeda</h3>
-        <p>Gentil e sensível, usa correntes em batalha.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/b8/fc/53/b8fc53532dd6dd9287412e40910020c4.jpg" alt="Ikki de Fênix">
-        <h3>Ikki de Fênix</h3>
-        <p>Irmão de Shun, poderoso e misterioso.</p>
-      </a>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Shiryu de Dragão</p>
+      <p class="subtitle is-6">Nobre e sábio, mestre do punho do dragão.</p>
     </div>
   </div>
+</div>
 
-  <!-- Cavaleiros de Ouro -->
-  <h2>Cavaleiros de Ouro</h2>
-  <div class="container">
-    <!-- Lista completa dos 12 Cavaleiros de Ouro -->
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/07/09/ce/0709ce73532f424226155184477f08c9.jpg" alt="Mu de Áries">
-        <h3>Mu de Áries</h3>
-        <p>Mestre da restauração de armaduras e Cavaleiro de Áries.</p>
-      </a>
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/29/04/fa/2904fa70ef2407a667ee7aea6376edd3.jpg" alt="Hyoga de Cisne">
+      </figure>
     </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/99/62/ee/9962eea002193967a40f53b5febebc02.jpg" alt="Aldebaran de Touro">
-        <h3>Aldebaran de Touro</h3>
-        <p>Forte e imponente, defensor da segunda casa do zodíaco.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/8c/23/c7/8c23c7cfcf88516fd04b291982a47c06.jpg" alt="Saga de Gêmeos">
-        <h3>Saga de Gêmeos</h3>
-        <p>Um dos mais poderosos, dividido entre o bem e o mal.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/6c/c4/ea/6cc4eac9b8c1ddcfe657312a6d844195.jpg" alt="Máscara da Morte">
-        <h3>Máscara da Morte</h3>
-        <p>Temido por sua crueldade e domínio sobre as almas.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/e6/92/06/e6920621b683207ab290a9149b0b2d63.jpg" alt="Aiolia de Leão">
-        <h3>Aiolia de Leão</h3>
-        <p>Valente, justo e protetor dos fracos.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/82/a3/0e/82a30e138ec56391d87c55503c307f53.jpg" alt="Shaka de Virgem">
-        <h3>Shaka de Virgem</h3>
-        <p>O homem mais próximo de Deus, Cavaleiro místico.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/85/de/c4/85dec49e73d5feb7132ae61054958869.jpg" alt="Dohko de Libra">
-        <h3>Dohko de Libra</h3>
-        <p>O Mestre Ancião, guardião das armas sagradas de Libra.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/6e/ad/74/6ead744e3360cb8a3312eabebc6efb80.jpg" alt="Milo de Escorpião">
-        <h3>Milo de Escorpião</h3>
-        <p>Ágil e letal, mestre das agulhas escarlates.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/b7/64/ed/b764ed99b7d7e8ada26b198312586dcc.jpg" alt="Aioros de Sagitário">
-        <h3>Aioros de Sagitário</h3>
-        <p>Herói trágico que salvou Atena ainda bebê.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/39/dd/37/39dd37deea04c5b3ba2ad29968c21a00.jpg" alt="Shura de Capricórnio">
-        <h3>Shura de Capricórnio</h3>
-        <p>Portador da lendária espada Excalibur.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/47/56/e5/4756e502aab97b2122b90686962865b2.jpg" alt="Camus de Aquário">
-        <h3>Camus de Aquário</h3>
-        <p>Mestre de Hyoga, usa ataques congelantes letais.</p>
-      </a>
-    </div>
-    <div class="card">
-        <img src="https://i.pinimg.com/736x/81/8b/53/818b53cf8f0d7e463953f8a7249bd09f.jpg" alt="Afrodite de Peixes">
-        <h3>Afrodite de Peixes</h3>
-        <p>Beleza mortal, mestre das rosas venenosas.</p>
-      </a>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Hyoga de Cisne</p>
+      <p class="subtitle is-6">Frio e determinado, controla o gelo com maestria.</p>
     </div>
   </div>
+</div>
 
-  <!-- Outros personagens -->
-  <h2>Outros Personagens</h2>
-  <div class="container">
-        <a class="card" href="saori.html">
-            <img src="https://i.pinimg.com/736x/b6/e7/9a/b6e79a637579508e08731f890f99a15e.jpg" alt="Saori Kido (Atena)">
-            <h3>Saori Kido (Atena)</h3>
-            <p>Reencarnação da deusa Atena, líder dos Cavaleiros.</p>
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/16/e9/00/16e900e8f07382ff674bb3ccd104f44c.jpg" alt="Shun de Andrômeda">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Shun de Andrômeda</p>
+      <p class="subtitle is-6">Gentil e poderoso, guerreiro da corrente da nebulosa.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/b8/fc/53/b8fc53532dd6dd9287412e40910020c4.jpg" alt="Ikki de Fênix">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Ikki de Fênix</p>
+      <p class="subtitle is-6">Solitário e forte, renasce das cinzas para proteger seu irmão.</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <h2 class="title is-3 has-text-centered">Cavaleiros de Ouro</h2>
+      <div class="columns is-multiline">
+
+        <!-- Cavaleiros de Ouro exemplo -->
+        <div class="column is-one-quarter">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                  <img src="https://i.pinimg.com/736x/07/09/ce/0709ce73532f424226155184477f08c9.jpg" alt="Mu de Áries">
+                </a>
+              </figure>
+            </div>
+            <div class="card-content has-text-centered">
+              <p class="title is-5">Mu de Áries</p>
+              <p class="subtitle is-6">Guardião da primeira casa do zodíaco, sábio e calmo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/99/62/ee/9962eea002193967a40f53b5febebc02.jpg" alt="Aldebaran de Touro">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Aldebaran de Touro</p>
+      <p class="subtitle is-6">Forte e honrado, guardião da Casa de Touro.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/8c/23/c7/8c23c7cfcf88516fd04b291982a47c06.jpg" alt="Saga de Gêmeos">
         </a>
-    
-        <a class="card" href="shion.html">
-            <img src="https://i.pinimg.com/736x/88/56/a5/8856a57fe18b9e821e6f5419037eba9c.jpg" alt="Shion de Áries">
-            <h3>Shion de Áries</h3>
-            <p>Antigo Cavaleiro de Ouro e Mestre do Santuário.</p>
-        </a>
+      </figure>
     </div>
-    <div>
-      <h1>Sobre este Anime</h1>
-
-      
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Saga de Gêmeos</p>
+      <p class="subtitle is-6">Complexo e poderoso, possui dupla personalidade.</p>
     </div>
-     
- 
-  <h2>Envie sua opinião</h2>
-  <div class="container">
-    <form action="#" method="post">
-      <label for="nome">Nome:</label><br>
-      <input type="text" id="nome" name="nome" required><br>
-
-      <label for="email">E-mail:</label><br>
-      <input type="email" id="email" name="email" required><br>
-
-      <label for="mensagem">Mensagem:</label><br>
-      <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
-
-      <input type="button" onclick="funcao1()" value="Enviar" />
-    </form>
   </div>
-  <footer>
-    <p>Feito por Thiago &copy; 2025</p>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/6c/c4/ea/6cc4eac9b8c1ddcfe657312a6d844195.jpg" alt="Máscara da Morte de Câncer">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Máscara da Morte de Câncer</p>
+      <p class="subtitle is-6">Cruel e sombrio, defensor da Casa de Câncer.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/e6/92/06/e6920621b683207ab290a9149b0b2d63.jpg" alt="Aiolia de Leão">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Aiolia de Leão</p>
+      <p class="subtitle is-6">Valente e leal, irmão de Aiolos de Sagitário.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/82/a3/0e/82a30e138ec56391d87c55503c307f53.jpg" alt="Shaka de Virgem">
+        </a>
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Shaka de Virgem</p>
+      <p class="subtitle is-6">Considerado o mais próximo de Deus entre os Cavaleiros de Ouro.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/85/de/c4/85dec49e73d5feb7132ae61054958869.jpg" alt="Dohko de Libra">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Dohko de Libra</p>
+      <p class="subtitle is-6">Antigo mestre de Shiryu, defensor da justiça e equilíbrio.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/6e/ad/74/6ead744e3360cb8a3312eabebc6efb80.jpg" alt="Milo de Escorpião">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Milo de Escorpião</p>
+      <p class="subtitle is-6">Ágil e letal, mestre da técnica Agulha Escarlate.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/b7/64/ed/b764ed99b7d7e8ada26b198312586dcc.jpg" alt="Aiolos de Sagitário">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Aiolos de Sagitário</p>
+      <p class="subtitle is-6">Herói e mártir, protetor de Atena.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/39/dd/37/39dd37deea04c5b3ba2ad29968c21a00.jpg" alt="Shura de Capricórnio">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Shura de Capricórnio</p>
+      <p class="subtitle is-6">Fiel a Atena, especialista na técnica Excalibur.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/47/56/e5/4756e502aab97b2122b90686962865b2.jpg" alt="Camus de Aquário">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Camus de Aquário</p>
+      <p class="subtitle is-6">Mestre de Hyoga, frio e calculista como o gelo que domina.</p>
+    </div>
+  </div>
+</div>
+
+<div class="column is-one-quarter">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+          <img src="https://i.pinimg.com/736x/81/8b/53/818b53cf8f0d7e463953f8a7249bd09f.jpg" alt="Afrodite de Peixes">
+        </a>
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <p class="title is-5">Afrodite de Peixes</p>
+      <p class="subtitle is-6">Belo e mortal, defensor da última casa do zodíaco.</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+<div>
+  <h1>Sobre este Anime:</h1>
+  <p>A história gira em torno de jovens guerreiros chamados Cavaleiros (ou Saints), que lutam para proteger a deusa Atena e a Terra contra forças do mal. Cada Cavaleiro veste uma armadura sagrada (Cloth) inspirada em constelações, e utiliza uma energia chamada Cosmo, que representa o universo dentro de si.</p>
+</div>
+
+
+
+  <!-- Formulário de contato -->
+  <!-- <section class="section">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Fale conosco</h2>
+      <form class="box">
+        <div class="field">
+          <label class="label">Nome</label>
+          <div class="control">
+            <input class="input" type="text" name="nome" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">E-mail</label>
+          <div class="control">
+            <input class="input" type="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Mensagem</label>
+          <div class="control">
+            <textarea class="textarea" name="mensagem" rows="4" required></textarea>
+          </div>
+        </div>
+
+        <div class="field is-grouped is-grouped-centered">
+          <div class="control">
+            <input type="button" onclick="funcao1()" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </section> -->
+  <div class="field is-grouped is-grouped-centered">
+    <div class="control">
+      <a class="button" href="Form.html"> contato </a>
+  </div>
+</div>
+  <!-- Footer opcional -->
+  <footer class="footer has-background-dark has-text-white-ter">
+    <div class="content has-text-centered">
+      <p>&copy; 2025 Cavaleiros do Zodíaco Feito por Thiago. Todos os direitos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>
-
